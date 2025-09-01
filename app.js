@@ -5,12 +5,9 @@ let b = 2;
 
 console.log(a, b);
 
-let c = b;
-let d = a;
-
-a = c;
-b = d;
-
+let c = a;
+a = b
+b = c;
 console.log(a, b);
 
 
